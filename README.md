@@ -62,8 +62,6 @@ Analysis on Cycle to Work data.
    Implements the map matching algorithm.
    
  ## Idea behind the map matching algorithm
-   The algorithm here is derived from the paper: Map-matching of GPS traces on high-resolution navigation networks using the 
-   Multiple Hypothesis Technique (MHT), written by Nadine Schuessler and Kay Axhausen.
    
    This algorithm is based on the notion of a route candidate, which is a possible path the traveler could have taken as the GPS points were
    recorded. Each route candidate has a list of directed road segments and a score identifying how closely the GPS points match those road segments.
