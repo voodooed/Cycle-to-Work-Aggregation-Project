@@ -100,13 +100,7 @@ Analysis on Cycle to Work data.
     • score: This is the calculated score for this route candidate. The score is calculated as the sum of the GPS distances 
       in each route segment—in other words, the lower the score, the more closely the GPS points follow this route.
       
-  # Issue
-   All the programs are doing their job except a small part of the map_matcher.ipynb (which is commented in the code).
-   
-   The starting and end coordinates of a gpx files(under process) are perfectly matched to the road. Hence, generating
-   the initial route candidates, but the part of the code that was supposed to take care of the remaning points in between is creating an issue.
-    
-   The index.html file shows the map generated after processing a set of 50 gpx files.
+
    
    The Google drive link to the backup of database: [gps_heatmap](https://drive.google.com/file/d/1vx1Ju3IPaYHgE3PD2KfN7bA6HHmqUxTN/view?usp=sharing)
     
